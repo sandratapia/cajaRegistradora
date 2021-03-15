@@ -1,0 +1,33 @@
+.meals__drinks{
+    h3{
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 25px;
+        padding: 5px;
+        border: 1px solid lightblue;
+    }
+    .productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .producto{
+            width: 200px;
+            margin: 5px;
+            border: 1px solid lightblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-family: 'Comfortaa', cursive;
+            img{
+                width: 200px;
+                height: 140px;
+            }
+            p{
+                margin: 5px;
+            }
+        }
+    }
+}

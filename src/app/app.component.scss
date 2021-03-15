@@ -1,0 +1,24 @@
+.header{
+    h1{
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        font-size: 40px;
+    }
+}
+
+.main{
+    .container{
+        width: 80%;
+        margin: 30px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        .izquierda{
+            width: 70%;
+            padding: 10px;
+        }
+        .derecha{
+            width: 30%;
+            padding: 10px;
+        }
+    }
+}

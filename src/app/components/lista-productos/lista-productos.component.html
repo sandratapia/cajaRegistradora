@@ -1,0 +1,10 @@
+<div class="meals__drinks">
+    <h3>{{titulo}}</h3>
+    <div class="productos">
+        <div class="producto" *ngFor="let producto of productos" (click)="addProduct(producto)">
+            <img [src]="producto.imgUrl" alt="">
+            <p>{{producto.nombre}}</p>
+            <p>{{producto.precio}}€</p>
+        </div>
+    </div>
+</div>

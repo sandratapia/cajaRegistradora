@@ -1,0 +1,25 @@
+.comanda{
+    h3{
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 25px;
+        padding: 5px;
+        border: 1px solid lightblue;
+    }
+    .productos{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid lightblue;
+        padding: 10px;
+        font-family: 'Comfortaa', cursive;
+        p{
+            margin: 8px;
+        }
+        .producto{
+            cursor: pointer;
+            p{
+                margin: 8px;
+            }
+        }
+    }
+}
